@@ -1,0 +1,58 @@
+/* styling for header section */
+
+header {
+	background-color: rgba(15, 15, 14, 0.7);
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.nav-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+	color: white;
+}
+
+.nav-header h1 {
+	padding-left: 30px;
+}
+
+.nav-btn {
+	background: none;
+	border: none;
+	color: grey;
+	font-size: var(--fs-2);
+	padding-right: 30px;
+}
+
+.nav-items {
+	display: none;
+}
+
+.nav-items ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-items a {
+	color: white;
+	text-decoration: none;
+	font-size: var(--fs-3);
+}
+
+.nav-items a:hover {
+	font-size: 1.5em;
+	border-bottom: 1px solid var(--primary-color);
+}
+
+.nav-open {
+	height: 100vh;
+	justify-content: center;
+	display: flex;
+	background-color: rgba(15, 15, 14, 1);
+}

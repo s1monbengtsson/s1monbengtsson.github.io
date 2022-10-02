@@ -1,0 +1,43 @@
+/* styling for hero seciton */
+
+.hero-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("/images/hero-background-update.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-left: 1rem;
+}
+
+.hero-welcome span {
+	color: transparent;
+	-webkit-text-stroke: 0.7px var(--light-color);
+}
+
+.hero-welcome h3 {
+	color: var(--light-color);
+}
+
+.hero-description {
+	color: var(--light-color);
+}
+
+.hero-btn {
+	display: flex;
+	justify-content: center;
+	background: none;
+	border: 3px solid var(--primary-color);
+	color: var(--primary-color);
+	width: 50%;
+	padding: 0.7rem;
+	margin-top: 1rem;
+	font-size: 1.2rem;
+}
+
+.hero-btn:hover {
+	background-color: var(--primary-color);
+	transition: background-color 0.5s;
+	color: var(--light-color);
+}

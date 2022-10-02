@@ -1,0 +1,256 @@
+@media screen and (min-width: 700px) {
+	.hero-container,
+	.about {
+		padding: 0 6rem;
+	}
+	.services-item {
+		padding: 0 10rem;
+	}
+	.reviewer {
+		padding-top: 2.5rem;
+	}
+	.about-columns {
+		margin-top: 3rem;
+		width: 35vw;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	a:hover {
+		color: rgb(182, 134, 76);
+	}
+	.social-media > a:hover {
+		color: white;
+	}
+	header {
+		display: flex;
+		justify-content: space-around;
+		z-index: 1;
+		padding: 0.5rem 0;
+	}
+	.nav-header {
+		padding-left: 4rem;
+	}
+	.nav-header h1 {
+		font-size: 2rem;
+	}
+	.nav-btn {
+		display: none;
+	}
+	.nav-items {
+		overflow: visible;
+		display: flex;
+	}
+
+	.nav-items ul {
+		display: flex;
+		flex-direction: row;
+	}
+	.nav-items a {
+		border: none;
+		font-size: 1rem;
+		padding: 0 1.5rem;
+	}
+
+	.hero-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		align-items: center;
+	}
+	.hero-container h3 {
+		font-size: 3rem;
+	}
+	.hero-welcome {
+		width: 80%;
+		display: grid;
+		grid-column-start: 2;
+		grid-row-start: 3;
+	}
+	.hero-description {
+		width: 80%;
+		display: grid;
+		grid-column-start: 2;
+		grid-row-start: 4;
+		border-left: 3px solid rgb(182, 134, 76);
+		padding-left: 4rem;
+		margin-left: 1rem;
+		line-height: 2rem;
+		align-items: start;
+	}
+	.hero-description p {
+		font-size: 1rem;
+	}
+	.hero-btn {
+		margin-top: 1rem;
+		width: 50%;
+		height: 2rem;
+		align-items: center;
+	}
+	.service-container {
+		display: grid;
+		grid-template-columns: repeat(4, 25%);
+	}
+	.serivces-items {
+		display: grid;
+		grid-template-columns: repeat(4, 25%);
+	}
+	.services-item {
+		justify-content: center;
+		align-items: center;
+		padding: 2rem 1.5rem;
+	}
+	.services-item img {
+		height: 150px;
+		width: 150px;
+		top: -75px;
+	}
+	.about-container {
+		height: 50%;
+		display: grid;
+		grid-template-columns: 1fr 3fr 3fr 1fr;
+		padding: 0;
+	}
+	.about-container > img {
+		height: 100%;
+		grid-column: 2 / 3;
+		margin: 0;
+		padding: 0;
+	}
+
+	.about-wrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left: 2rem;
+		margin-top: 0;
+	}
+	.about-heading {
+		margin-top: 2rem;
+	}
+	.about-heading h3 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+	.about-description {
+		line-height: 2rem;
+		margin-top: 0;
+	}
+	.about-columns {
+		width: 70%;
+		padding: 0.5rem 0;
+	}
+	.testimonial-container {
+		display: flex;
+		height: 90vh;
+	}
+	.testimonial-cards {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin: 5rem 10vw;
+		margin-top: 0;
+	}
+	.testimonial-reviews {
+		display: flex;
+		flex-direction: column;
+		width: 40vw;
+		height: 35vh;
+	}
+	.review {
+		padding-top: 1rem;
+	}
+	.reviewer {
+		padding-top: 0;
+		margin: 1rem;
+	}
+
+	.carousel-dots {
+		display: none;
+	}
+	.review img {
+		top: -40px;
+	}
+	.footer-container {
+		height: 50vh;
+		display: flex;
+		flex-direction: row;
+	}
+	.footer-wrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.footer-items {
+		height: 100%;
+		width: 20%;
+	}
+
+	.footer-item a {
+		font-size: 1.2rem;
+	}
+	.footer-items p {
+		color: rgb(174, 173, 173);
+		font-size: 1.2rem;
+	}
+	.social-media {
+		padding-top: 1rem;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.mobile-hide {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+	.about-container > img {
+		margin: 1rem auto;
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+	.about-container {
+		display: grid;
+		grid-template-columns: 1fr 3fr 3fr 1fr;
+		padding: 0;
+	}
+	.about-container > img {
+		height: 100%;
+		grid-column: 2 / 3;
+		margin: auto 0;
+		padding: 0;
+	}
+
+	.about-wrapper {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-left: 2rem;
+		margin-top: 0;
+	}
+	.about-heading {
+		margin-top: 2rem;
+	}
+	.about-heading h3 {
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+	.about-description {
+		line-height: 2rem;
+		margin-top: 0;
+	}
+	.about-columns {
+		width: 70%;
+		padding: 0.5rem 0;
+	}
+}
