@@ -1,0 +1,36 @@
+/* importing font-family */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* stylesheets  */
+@import url("general.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("services.css");
+@import url("about.css");
+@import url("testimonial.css");
+@import url("footer.css");
+
+/* media queries */
+@import url("media-desktop.css");
+@import url("media-desktop-wide.css");
+
+/* variables */
+
+:root {
+	--primary-color: rgb(191, 146, 91);
+	--secondary-color: rgb(182, 134, 76);
+	--light-color: whitesmoke;
+	--dark-color: black;
+
+	/* font size h2, h3, p */
+
+	--fs-2: 1.3rem;
+	--fs-3: 2.3rem;
+	--fs-p: 1rem;
+
+	/* line-height */
+
+	--lh-p: 1.7rem;
+}
