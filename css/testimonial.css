@@ -20,7 +20,7 @@
 }
 
 .testimonial-reviews {
-	background-color: white;
+	background-color: var(--light-color);
 	margin: 1rem;
 	border-radius: 5px;
 	line-height: var(--lh-p);
