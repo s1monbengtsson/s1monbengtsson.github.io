@@ -10,6 +10,7 @@
 	.services-item img {
 		height: 150px;
 		width: 150px;
+		top: -75px;
 	.reviewer {
 		padding-top: 2.5rem;
 	}
